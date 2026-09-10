@@ -17,7 +17,7 @@ const userSchema  = new mongooseSchema(
     },
 
     password: {
-      type: String,
+      
       required: true,
     },
 
