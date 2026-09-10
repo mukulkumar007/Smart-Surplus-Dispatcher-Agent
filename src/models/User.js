@@ -23,7 +23,7 @@ const userSchema  = new mongooseSchema(
 
     role: {
       type: String,
-      enum: ["DONOR",  "VOLUNTEER"],
+      enum: ["DONOR","NGO","VOLUNTEER"],
       default: "DONOR",
     },
   },
