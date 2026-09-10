@@ -17,13 +17,13 @@ const userSchema  = new mongooseSchema(
     },
 
     password: {
-      type: String,
+      
       required: true,
     },
 
     role: {
       type: String,
-      enum: ["DONOR",  "VOLUNTEER"],
+      enum: ["DONOR","NGO","VOLUNTEER"],
       default: "DONOR",
     },
   },
